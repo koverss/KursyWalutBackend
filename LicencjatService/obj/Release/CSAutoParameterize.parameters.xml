@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="LocalDB-Web.config Connection String" description="LocalDB Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:servlicsql.database.windows.net,1433;Initial&#xD;&#xA;         Catalog=sqllicdb;&#xD;&#xA;         User ID=koverss@servlicsql;&#xD;&#xA;         Password=h3!!isap1r4t3" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Bartek\\Desktop\\fresh\ backend\\LicencjatService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LocalDB']/@connectionString" />
+  </parameter>
+  <parameter name="MS_NotificationHubConnectionString-Web.config Connection String" description="MS_NotificationHubConnectionString Connection String used in web.config by the application to access the database." defaultValue="Endpoint=sb://licencjat.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=HsMBN3xIym5Wr6mz34Tb3Z7XTUG5kuxdwwgLxfNZXMw=" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Bartek\\Desktop\\fresh\ backend\\LicencjatService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_NotificationHubConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="LicencjatService.Models.LicencjatContext-Web.config Connection String" description="LicencjatService.Models.LicencjatContext Connection String used in web.config by the application to access the database." defaultValue="LicencjatService.Models.LicencjatContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Bartek\\Desktop\\fresh\ backend\\LicencjatService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LicencjatService.Models.LicencjatContext']/@connectionString" />
+  </parameter>
+  <parameter name="LicencjatService.Models.LicencjatContext_DatabasePublish-Web.config Connection String" description="LicencjatService.Models.LicencjatContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="LicencjatService.Models.LicencjatContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Bartek\\Desktop\\fresh\ backend\\LicencjatService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LicencjatService.Models.LicencjatContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>
